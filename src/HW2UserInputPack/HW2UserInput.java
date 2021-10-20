@@ -23,10 +23,10 @@ public class HW2UserInput {
 
 //		2. Determine whether a user entered number is an Armstrong number
 //		Scanner scanner = new Scanner(System.in);
-//		System.out.println("Enter a number more than 0 to check if it is an Armstrong number: ");
+//		System.out.println("Please Enter a number more than 0 to check if it is an Armstrong number: ");
 //
 //		int number = scanner.nextInt();
-//		if (number > 0) {
+//		if (number >= 0) {
 //			if (checkArmstrongNumber(number)) {
 //				System.out.printf("The number %d is an Armstrong number.", number);
 //			} else {
@@ -113,7 +113,7 @@ public class HW2UserInput {
 		int secondNumber = 1;
 		int nextNumber;
 
-		for (int i = 0; i < num; i++) {
+		for (int i = 0; i <= num; i++) {
 			System.out.print(firstNumber + " ");
 			nextNumber = firstNumber + secondNumber;
 			firstNumber = secondNumber;
